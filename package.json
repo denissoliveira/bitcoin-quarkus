@@ -1,7 +1,7 @@
 {
-  "name": "logistic-api",
-  "version": "0.5.0-SNAPSHOT",
-  "description": "Logistic-API",
+  "name": "bitcoin-quarkus",
+  "version": "0.2.0",
+  "description": "bitcoin-quarkus",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
