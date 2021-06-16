@@ -1,3 +1,14 @@
+![GitHub package version](https://img.shields.io/github/package-json/v/denissoliveira/bitcoin-quarkus.svg)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/denissoliveira/bitcoin-quarkus.svg)](https://github.com/denissoliveira/bitcoin-quarkus/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/danielso2007/bitcoin-quarkus.svg)](https://github.com/denissoliveira/bitcoin-quarkus/issues?q=is%3Aopen+is%3Aissue)
+![GitHub last commit](https://img.shields.io/github/last-commit/denissoliveira/bitcoin-quarkus.svg)
+[![GitHub issue/pull request author](https://img.shields.io/github/issues/detail/u/denissoliveira/bitcoin-quarkus/1.svg)](https://github.com/denissoliveira/bitcoin-quarkus/pulls)
+![GitHub contributors](https://img.shields.io/github/contributors/denissoliveira/bitcoin-quarkus.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/denissoliveira/bitcoin-quarkus.svg)
+[![GitHub](https://img.shields.io/github/license/denissoliveira/bitcoin-quarkus.svg)](https://github.com/denissoliveira/bitcoin-quarkus)
+[![GitHub All Releases](https://img.shields.io/github/downloads/danielso2007/bitcoin-quarkus/total.svg)](https://github.com/denissoliveira/bitcoin-quarkus/archive/master.zip)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+
 # bitcoin project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
@@ -66,3 +77,18 @@ sudo apt-get -y install gcc libc6-dev zlib1g-dev
 Você pode então executar seu executável nativo com: `. / Target / bitcoin-1.0.0-SNAPSHOT-runner`
 
 Se você quiser saber mais sobre como construir executáveis nativos, consulte <https://quarkus.io/guides/maven-tooling.html>.
+
+## Conventional Commits
+
+[Conventional Commits](https://www.conventionalcommits.org/)
+
+## ChangeLogs
+
+[standard-version](https://www.npmjs.com/package/standard-version)
+
+* Test `npm run release -- --dry-run`
+* `npm run release -- --release-as 0.0.1-SNAPSHOT --dry-run`
+
+## Versionamento
+
+[semver](https://semver.org/)
