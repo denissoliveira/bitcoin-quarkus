@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-quarkus",
-  "version": "0.2.0",
+  "version": "0.2.0-SNAPSHOT",
   "description": "bitcoin-quarkus",
   "main": "index.js",
   "scripts": {
