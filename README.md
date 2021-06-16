@@ -17,6 +17,7 @@ export JAVA_HOME=/home/usuario/JAVA/graalvm-ce-java11-21.1.0
 ```
 
 * No eclipse abrir java Build Path, editar o JRE para o graalvm;
+* Instalando componete native-image: `./gu install native-image`
 
 ## Running the application in dev mode
 
@@ -43,19 +44,25 @@ If you want to build an _über-jar_, execute the following command:
 
 The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
 
-## Creating a native executable
+## Criação de um executável nativo
 
-You can create a native executable using: 
+Você pode criar um executável nativo usando:
 ```shell script
 ./mvnw package -Pnative
 ```
 
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
+Ou, se você não tiver o GraalVM instalado, pode executar a compilação do executável nativo em um contêiner usando:
 ```shell script
 ./mvnw package -Pnative -Dquarkus.native.container-build=true
 ```
 
-You can then execute your native executable with: `./target/bitcoin-1.0.0-SNAPSHOT-runner`
+* obs:
+Caso ocorra erro na criação da imagem nativa no linux, instalar <https://quarkus.io/guides/building-native-image>:
 
-If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.html.
+```sh
+sudo apt-get -y install gcc libc6-dev zlib1g-dev
+```
 
+Você pode então executar seu executável nativo com: `. / Target / bitcoin-1.0.0-SNAPSHOT-runner`
+
+Se você quiser saber mais sobre como construir executáveis nativos, consulte <https://quarkus.io/guides/maven-tooling.html>.
