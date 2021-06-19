@@ -2,7 +2,7 @@
   "name": "bitcoin-quarkus",
   "version": "0.2.0-SNAPSHOT",
   "description": "bitcoin-quarkus",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "release": "standard-version",
     "test": "mvn -q test -P test"
