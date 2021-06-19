@@ -9,13 +9,19 @@
 [![GitHub All Releases](https://img.shields.io/github/downloads/danielso2007/bitcoin-quarkus/total.svg)](https://github.com/denissoliveira/bitcoin-quarkus/archive/master.zip)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
-# bitcoin project
+# Bitcoin project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+Este projeto usa Quarkus, o Supersonic Subatomic Java Framework.
+Usando Hibernate Panache, que utiliza o padrão é chamado de Active Records.
+Usando , para estudo, o padrão repository.
 
-## graalvm
+Se você quiser saber mais sobre a Quarkus, visite seu website:
+If you want to learn more about Quarkus, please visit its website: 
+<https://quarkus.io/>.
+
+## Graalvm
 
 * Fazer o download em: <https://www.graalvm.org/downloads/>
 * Unzip the archive: `tar -xzf graalvm-ce-java<version>-linux-amd64-<version>.tar.gz`;
@@ -26,6 +32,8 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 export PATH=/home/usuario/JAVA/graalvm-ce-java11-21.1.0/bin:$PATH
 export JAVA_HOME=/home/usuario/JAVA/graalvm-ce-java11-21.1.0
 ```
+
+* Para usar com Linux, recomendo o [SDKMan]: <https://sdkman.io/usage>
 
 * No eclipse abrir java Build Path, editar o JRE para o graalvm;
 * Instalando componete native-image: `./gu install native-image`
