@@ -8,7 +8,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import br.com.qkscoin.Builders.OrdemBuilder;
+import io.quarkus.test.junit.QuarkusTest;
 
+@QuarkusTest
 class OrdemTest {
 	
 	private Ordem ordem;

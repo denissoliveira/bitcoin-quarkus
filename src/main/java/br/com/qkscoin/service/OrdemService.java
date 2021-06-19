@@ -21,7 +21,7 @@ public class OrdemService {
 	
 	public void inserir(SecurityContext securityContext, Ordem ordem) {
 		Optional<Usuario> usuarioOptional = Usuario.findByIdOptional(ordem.getUserId());
-		Usuario usuario = usuarioOptional.orElseThrow();
+		var usuario = usuarioOptional.orElseThrow();
 		if (!usuario.getUsername().equals(securityContext.getUserPrincipal().getName())) {
 			throw new RuntimeException("O usuário logado é diferente do userId");
 		}
