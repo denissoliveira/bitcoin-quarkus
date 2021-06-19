@@ -1,12 +1,12 @@
 ![GitHub package version](https://img.shields.io/github/package-json/v/denissoliveira/bitcoin-quarkus.svg)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/denissoliveira/bitcoin-quarkus.svg)](https://github.com/denissoliveira/bitcoin-quarkus/pulls)
-[![GitHub issues](https://img.shields.io/github/issues/danielso2007/bitcoin-quarkus.svg)](https://github.com/denissoliveira/bitcoin-quarkus/issues?q=is%3Aopen+is%3Aissue)
+[![GitHub issues](https://img.shields.io/github/issues/denissoliveira/bitcoin-quarkus.svg)](https://github.com/denissoliveira/bitcoin-quarkus/issues?q=is%3Aopen+is%3Aissue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/denissoliveira/bitcoin-quarkus.svg)
 [![GitHub issue/pull request author](https://img.shields.io/github/issues/detail/u/denissoliveira/bitcoin-quarkus/1.svg)](https://github.com/denissoliveira/bitcoin-quarkus/pulls)
 ![GitHub contributors](https://img.shields.io/github/contributors/denissoliveira/bitcoin-quarkus.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/denissoliveira/bitcoin-quarkus.svg)
 [![GitHub](https://img.shields.io/github/license/denissoliveira/bitcoin-quarkus.svg)](https://github.com/denissoliveira/bitcoin-quarkus)
-[![GitHub All Releases](https://img.shields.io/github/downloads/danielso2007/bitcoin-quarkus/total.svg)](https://github.com/denissoliveira/bitcoin-quarkus/archive/master.zip)
+[![GitHub All Releases](https://img.shields.io/github/downloads/denissoliveira/bitcoin-quarkus/total.svg)](https://github.com/denissoliveira/bitcoin-quarkus/archive/master.zip)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 # Bitcoin project
@@ -18,7 +18,7 @@ Usando Hibernate Panache, que utiliza o padrão é chamado de Active Records.
 Usando , para estudo, o padrão repository.
 
 Se você quiser saber mais sobre a Quarkus, visite seu website:
-If you want to learn more about Quarkus, please visit its website: 
+If you want to learn more about Quarkus, please visit its website:
 <https://quarkus.io/>.
 
 ## Graalvm
