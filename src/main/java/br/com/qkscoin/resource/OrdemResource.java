@@ -14,10 +14,11 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.SecurityContext;
 
+import br.com.qkscoin.contants.Constants;
 import br.com.qkscoin.model.Ordem;
 import br.com.qkscoin.service.OrdemService;
 
-@Path("/ordem")
+@Path(Constants.V1 + Constants.ORDEM)
 public class OrdemResource {
 	
 	@Inject	OrdemService ordemService;

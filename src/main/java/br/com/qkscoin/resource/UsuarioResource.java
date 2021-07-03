@@ -12,9 +12,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import br.com.qkscoin.contants.Constants;
 import br.com.qkscoin.model.Usuario;
 
-@Path("/usuario")
+@Path(Constants.V1 + Constants.USUARIO)
 public class UsuarioResource {
 	
 	@POST

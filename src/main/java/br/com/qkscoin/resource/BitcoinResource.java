@@ -10,10 +10,11 @@ import javax.ws.rs.core.MediaType;
 
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 
+import br.com.qkscoin.contants.Constants;
 import br.com.qkscoin.model.Bitcoin;
 import br.com.qkscoin.service.BitcoinService;
 
-@Path("/bitcoins")
+@Path(Constants.V1 + Constants.BITCOINS)
 public class BitcoinResource {
 	
 	@Inject

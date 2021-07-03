@@ -1,17 +1,19 @@
 package br.com.qkscoin.resource;
 
+import static io.restassured.RestAssured.when;
+
 import org.junit.jupiter.api.Test;
 
+import io.quarkus.test.common.http.TestHTTPEndpoint;
 import io.quarkus.test.junit.QuarkusTest;
-import io.restassured.RestAssured;
 
 @QuarkusTest
+@TestHTTPEndpoint(BitcoinResource.class)
 class BitcoinResourceTest {
 
 	@Test
 	void testarSeStatusCodeDaRequisicaoE200() {
-		RestAssured
-			.given().get("bitcoins").then().statusCode(200);
+		when().get().then().statusCode(200);
 	}
 
 }
